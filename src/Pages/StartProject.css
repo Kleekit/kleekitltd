@@ -1,0 +1,206 @@
+
+/* Form */
+
+.formCustom{
+	height: 720px;
+	box-shadow: 0px 20px 100px 0px #0000001A;
+	margin-bottom: 13rem;
+	padding: 2.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.formCustom h1{
+	margin-bottom: 4rem;
+}
+
+.formCustom form{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.btnCustom{
+	margin-top: 3rem;
+	background: #F11D1D;
+	color: #fff;
+	border: 1px solid #F11D1D;
+	outline: none;
+	padding: 0.5rem;
+	width: 240px;
+	text-align: center;
+	border-radius: 0.3rem;
+	margin-left: 4.5rem;
+}
+
+.formItem{
+	border: none;
+	border-bottom: 2px solid #403939;
+	opacity: 0.7;
+	outline: none
+}
+
+.comment{
+	height: 50px;
+}
+
+.label{
+	font-size: 1.3rem;
+	font-weight: 500;
+	color: #403939;
+
+}
+
+.fluidBox img{
+	width: 12rem;
+}
+
+.fluidBoxCase{
+	position: relative;
+}
+
+.oneBox{
+	position: absolute;
+	top: 150px;
+	left: -30px;
+}
+
+
+.twoBox{
+	position: absolute;
+	top: 150px;
+	right: -50px;
+}
+
+.threeBox{
+	position: absolute;
+	top: 780px;
+	left: -50px;
+}
+
+
+.fourBox{
+	position: absolute;
+	top: 780px;
+	right: -30px;
+}
+
+/*Responsiveness * Media Queries*/
+
+@media(max-width: 768px){
+
+	/*Nav Section*/
+
+	nav{
+		margin-bottom: 1.2rem;
+	}
+
+	.navLinkContainer ul{
+		width: 400px;
+		margin-right: 1rem;
+	}
+
+	/*Footer*/
+
+	.footer-logo-case{
+	height: 19rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+	.footer-btn{
+		margin-left: 1rem;
+	}
+
+	.fluidBox{
+		display: none;
+	}
+
+	.formCustom{
+		box-shadow: none;
+		padding: 1rem;
+	}
+
+	.btnCustom{
+		margin-top: 3rem;
+		padding: 0.5rem;
+		width: 100px;
+		font-size: 0.6rem;
+		text-align: center;
+		border-radius: 0.3rem;
+		margin-left: 4rem;
+	}
+
+}
+
+@media(max-width: 586px){
+
+	/* Nav Section */
+	.logo img{
+		width: 25px;
+	}
+
+	.header-btn{
+		width: 80px;
+		font-size: 0.5rem;
+	}
+
+	.navLinkContainer ul{
+		width: 220px;
+	}
+
+	.navLinkContainer ul li a{ 
+		font-size: 0.6rem;
+	}
+
+
+	/* Footer */
+
+	.contact{
+		align-items: baseline;
+	}
+
+	.footerIcon{
+		width: 1.3rem;
+		margin-left: 0rem;
+		margin-right: 0.5rem;
+	}
+
+}
+
+@media(min-width: 587px){
+	.headerTxtResponsive{
+		display: none;
+	}
+
+}
+
+
+@media(max-width: 520px){
+
+	.navLinkContainer{
+		display: none;
+	}
+
+	.btnResponsive{
+		display: none;
+	}
+
+	.menuResponsive{
+		display: block;
+	}
+	
+}
+
+@media(min-width: 521px){
+	.menuResponsive{
+		display: none;
+	}
+
+}
+

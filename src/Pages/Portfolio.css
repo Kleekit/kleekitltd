@@ -1,0 +1,212 @@
+/* Header Section */
+.projectLink{
+	text-decoration: none;
+	color: #040251;
+}
+
+.Top{
+	font-weight: 600;
+}
+
+/* Projects */
+.subHead{
+	font-weight: 700;
+}
+
+.heroSection{
+	margin-top: 5rem;
+	margin-bottom: 8rem;
+}
+
+.firstProject{
+	background: #F9F8F8;
+	padding: 2rem;
+	margin-top: 3rem;
+	margin-bottom: 5rem;
+}
+
+.secondProject{
+	padding: 2rem;
+	margin-top: 3rem;
+	margin-bottom: 8rem;
+}
+
+.thirdProject{
+	padding: 2rem;
+	margin-top: 3rem;
+	margin-bottom: 15rem;
+}
+
+/* Dotted Rectangles */
+
+.boxResponsive img{
+	width: 12rem;
+	z-index: -1;
+}
+
+.box{
+	position: relative;
+}
+
+.firstBox{
+	position: absolute;
+	top: 25px;
+	right: 18px;
+}
+
+.secondBox{
+	position: absolute;
+	top: 240px;
+	left: 20px;
+}
+
+.thirdBox{
+	position: absolute;
+	top: 370px;
+	right: 50px;
+}
+
+.fourthBox{
+	position: absolute;
+	top: 800px;
+	left: 50px;
+}
+
+.fifthBox{
+	position: absolute;
+	top: -80px;
+	right: 3px;
+}
+
+.sixthBox{
+	position: absolute;
+	top: 500px;
+}
+
+/*Responsiveness * Media Queries*/
+
+@media(max-width: 768px){
+
+	/*Nav Section*/
+
+	nav{
+		margin-bottom: 1.2rem;
+	}
+
+	.navLinkContainer ul{
+		width: 400px;
+		margin-right: 1rem;
+	}
+
+	/*Footer*/
+
+	.footer-logo-case{
+	height: 19rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+	.footer-btn{
+		margin-left: 1rem;
+	}
+
+}
+
+@media(max-width: 586px){
+
+	/* Nav Section */
+	.logo img{
+		width: 25px;
+	}
+
+	.header-btn{
+		width: 80px;
+		font-size: 0.5rem;
+	}
+
+	.navLinkContainer ul{
+		width: 220px;
+	}
+
+	.navLinkContainer ul li a{ 
+		font-size: 0.6rem;
+	}
+
+	/* Footer */
+
+	.contact{
+		align-items: baseline;
+	}
+
+	.footerIcon{
+		width: 1.3rem;
+		margin-left: 0rem;
+		margin-right: 0.5rem;
+	}
+
+	.headerTop{
+		display: none;
+	}
+
+	.headerLine{
+		width: 12rem;
+	}
+
+	.headerTxtResponsive{
+		display: block;
+	}
+
+	.boxResponsive{
+		display: none;
+	}
+
+	footer{
+		margin-top: 0rem;
+	}
+
+	.firstProject{
+		margin-bottom: 2rem;
+	}
+
+	.secondProject{
+		margin-bottom: 2rem;
+	}
+
+	.thirdProject{
+		margin-bottom: 2rem;
+	}
+	
+}
+
+@media(min-width: 587px){
+	.headerTxtResponsive{
+		display: none;
+	}
+
+}
+
+
+@media(max-width: 520px){
+
+	.navLinkContainer{
+		display: none;
+	}
+
+	.btnResponsive{
+		display: none;
+	}
+
+	.menuResponsive{
+		display: block;
+	}
+	
+}
+
+@media(min-width: 521px){
+	.menuResponsive{
+		display: none;
+	}
+
+}
