@@ -14,10 +14,10 @@ const NavBar = () => {
             
             <div className="navLinkContainer">
             <ul>
-                <li><a className="activeLink" href="/">Home</a></li>
-                <li><a className="activeLink" href="/about">About</a></li>
-                <li><a className="activeLink" href="/portfolio">Porfolio</a></li>
-                <li><a className="activeLink" href="/team">Team</a></li>
+                <li><a className="activeLink" tabindex="1" href="/">Home</a></li>
+                <li><a className="activeLink" tabindex="2" href="/about">About</a></li>
+                <li><a className="activeLink" tabindex="3" href="/portfolio">Porfolio</a></li>
+                <li><a className="activeLink" tabindex="4" href="/team">Team</a></li>
             </ul>
             </div>
 

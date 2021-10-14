@@ -107,7 +107,7 @@ nav{
 	font-size: 0.9rem;
 }
 
-.active{
+.activeLink:focus-within{
 	border-bottom:3px solid rgba(239, 12, 12, 1);
 	border-radius: 0.1rem;
 	margin-bottom: 0.3rem;
