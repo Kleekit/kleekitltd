@@ -1,182 +1,171 @@
-
 /* Header Section */
 
-.headerTop{
-	font-size: 2rem;
-	font-weight: 700;
-	line-height: 40px;
-	margin-bottom: 1.7rem;
+.headerTop {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 1.7rem;
 }
 
-.headerSection{
-	line-height: 37px;
+.headerSection {
+  line-height: 37px;
 }
 
-small{
-	font-weight: 600;
+small {
+  font-weight: 600;
 }
 
 /* Inner Section */
 
-.headerLine{
-	width: 20rem;
-	text-align: center;
-	padding: 1rem;
-	border-bottom: 4px solid rgba(239, 12, 12, 1);
-	border-radius: 0.2rem;
-	margin-bottom: 1rem;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.headerLine {
+  width: 20rem;
+  text-align: center;
+  padding: 1rem;
+  border-bottom: 4px solid rgba(239, 12, 12, 1);
+  border-radius: 0.2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.headerCase{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+.headerCase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Section Who We Are */
 
-#sectionWho{
-	margin-top: 5rem;
-	margin-bottom: 3rem;
+#sectionWho {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
 }
 
-#sectionWho h2{
-	font-weight: 700;
-	margin-bottom: 0.1rem;
+#sectionWho h2 {
+  font-weight: 700;
+  margin-bottom: 0.1rem;
 }
 
 /* Section Our Vision */
 
-.sectionVision{
-	margin-top: 3rem;
-	margin-bottom: 5rem;
+.sectionVision {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
 }
 
-.sectionVision h2{
-	font-weight: 700;
-	margin-bottom: 0.1rem;
+.sectionVision h2 {
+  font-weight: 700;
+  margin-bottom: 0.1rem;
 }
 
 /* Section What Drives Us */
 
-.sectionDrive{
-	margin-bottom: 5rem;
+.sectionDrive {
+  margin-bottom: 5rem;
 }
 
-.sectionDrive h2{
-	font-weight: 700;
-	margin-bottom: 0.1rem;
+.sectionDrive h2 {
+  font-weight: 700;
+  margin-bottom: 0.1rem;
 }
 
 /*Responsiveness * Media Queries*/
 
-@media(max-width: 768px){
+@media (max-width: 768px) {
+  /*Nav Section*/
 
-	/*Nav Section*/
+  nav {
+    margin-bottom: 1.2rem;
+  }
 
-	nav{
-		margin-bottom: 1.2rem;
-	}
+  .navLinkContainer ul {
+    width: 400px;
+    margin-right: 1rem;
+  }
 
-	.navLinkContainer ul{
-		width: 400px;
-		margin-right: 1rem;
-	}
+  /*Footer*/
 
-	/*Footer*/
+  .footer-logo-case {
+    height: 19rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
 
-	.footer-logo-case{
-	height: 19rem;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-around;
+  .footer-btn {
+    margin-left: 1rem;
+  }
 }
 
-	.footer-btn{
-		margin-left: 1rem;
-	}
+@media (max-width: 586px) {
+  /* Nav Section */
+  .logo img {
+    width: 25px;
+  }
 
+  .header-btn {
+    width: 80px;
+    font-size: 0.5rem;
+  }
+
+  .navLinkContainer ul {
+    width: 220px;
+  }
+
+  .navLinkContainer ul li a {
+    font-size: 0.6rem;
+  }
+
+  /* Footer */
+
+  .contact {
+    align-items: baseline;
+  }
+
+  .footerIcon {
+    width: 1.3rem;
+    margin-left: 0rem;
+    margin-right: 0.5rem;
+  }
+
+  .headerTop {
+    display: none;
+  }
+
+  .headerLine {
+    width: 12rem;
+  }
+
+  .headerTxtResponsive {
+    display: block;
+  }
 }
 
-@media(max-width: 586px){
-
-	/* Nav Section */
-	.logo img{
-		width: 25px;
-	}
-
-	.header-btn{
-		width: 80px;
-		font-size: 0.5rem;
-	}
-
-	.navLinkContainer ul{
-		width: 220px;
-	}
-
-	.navLinkContainer ul li a{ 
-		font-size: 0.6rem;
-	}
-
-	/* Footer */
-
-	.contact{
-		align-items: baseline;
-	}
-
-	.footerIcon{
-		width: 1.3rem;
-		margin-left: 0rem;
-		margin-right: 0.5rem;
-	}
-
-	.headerTop{
-		display: none;
-	}
-
-	.headerLine{
-		width: 12rem;
-	}
-
-	.headerTxtResponsive{
-		display: block;
-	}
-	
+@media (min-width: 587px) {
+  .headerTxtResponsive {
+    display: none;
+  }
 }
 
-@media(min-width: 587px){
-	.headerTxtResponsive{
-		display: none;
-	}
+@media (max-width: 520px) {
+  .navLinkContainer {
+    display: none;
+  }
 
+  .btnResponsive {
+    display: none;
+  }
+
+  .menuResponsive {
+    display: block;
+  }
 }
 
-
-@media(max-width: 520px){
-
-	.navLinkContainer{
-		display: none;
-	}
-
-	.btnResponsive{
-		display: none;
-	}
-
-	.menuResponsive{
-		display: block;
-	}
-	
+@media (min-width: 521px) {
+  .menuResponsive {
+    display: none;
+  }
 }
-
-@media(min-width: 521px){
-	.menuResponsive{
-		display: none;
-	}
-
-}
-

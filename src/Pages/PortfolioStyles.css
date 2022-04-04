@@ -1,0 +1,566 @@
+Header Section .headerTxtContainer p {
+  font-size: 1.3rem;
+}
+
+.heroSection {
+  padding-top: 1rem;
+  margin-bottom: 12rem;
+}
+
+.headerTxtContainer h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.headerTxtContainer {
+  margin-bottom: 7rem;
+  position: relative;
+}
+
+.boxOne {
+  position: absolute;
+  top: 150px;
+  left: -30px;
+}
+
+.fingerCase {
+  position: relative;
+}
+
+.boxTwo {
+  position: absolute;
+  top: 500px;
+  right: -50px;
+  z-index: -10;
+}
+
+.scrollCase {
+  position: relative;
+}
+
+.scrollContainer {
+  position: absolute;
+  top: 330px;
+  left: -70px;
+}
+
+.scroll {
+  width: 6rem;
+}
+
+/* Rikeey Mobile Section */
+
+.mobileImgContainer {
+  position: absolute;
+  bottom: -81.5px;
+  left: -50px;
+}
+.mobileImg {
+  width: 47rem;
+}
+
+#mobileSection {
+  margin-top: 8rem;
+  margin-bottom: 15rem;
+  background: #ffcbcb;
+  border-radius: 2rem;
+  padding: 3.5rem;
+  position: relative;
+  background: linear-gradient(-90deg, #f2fbff, #ffcbcb, #dbf8ff);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.linkTop {
+  z-index: 10;
+}
+
+.mobileTxtContainer {
+  width: 70%;
+  margin-left: 7rem;
+}
+
+#mobileSection p {
+  font-size: 1.3rem;
+}
+
+#mobileSection a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #000;
+}
+
+/* Rikeey Website Section */
+.websiteImgContainer {
+  position: absolute;
+  bottom: -150px;
+  right: -50px;
+}
+.websiteImg {
+  width: 50rem;
+}
+
+.websiteSection {
+  margin-bottom: 15rem;
+  background: #dbf8ff;
+  border-radius: 2rem;
+  padding: 4rem;
+  position: relative;
+  background: linear-gradient(-90deg, #f2fbff, #ffcbcb, #dbf8ff);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.websiteSection p {
+  font-size: 1.3rem;
+}
+
+.websiteTxtContainer {
+  width: 70%;
+}
+
+.websiteSection a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #000;
+}
+
+/* About Me Section */
+.aboutImgContainer {
+  margin-left: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+#aboutMeSection {
+  background: #f2fbff;
+  padding: 4rem 2rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  background: linear-gradient(-90deg, #f2fbff, #ffcbcb, #dbf8ff);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.boxThree {
+  position: absolute;
+  z-index: -10;
+  top: -70px;
+  left: -50px;
+}
+
+.boxFour {
+  position: absolute;
+  top: 800px;
+  right: -50px;
+}
+
+#aboutMeSection h4 {
+  font-weight: 700;
+}
+
+#aboutMeSection p {
+  font-size: 1.3rem;
+}
+/* Connect Section */
+
+.socials {
+  width: 25%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 2rem;
+}
+
+#connectSection {
+  margin-top: 3rem;
+  margin-bottom: 15rem;
+}
+
+/* Float Animation */
+
+.avatar {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 5px white solid;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+  -webkit-transform: translatey(0px);
+  transform: translatey(0px);
+  -webkit-animation: float 6s ease-in-out infinite;
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Keyframes */
+
+@-webkit-keyframes float {
+  0% {
+    -webkit-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+  }
+  50% {
+    -webkit-box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translatey(-20px);
+    transform: translatey(-20px);
+  }
+  100% {
+    -webkit-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+  }
+}
+
+@keyframes float {
+  0% {
+    -webkit-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+  }
+  50% {
+    -webkit-box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translatey(-20px);
+    transform: translatey(-20px);
+  }
+  100% {
+    -webkit-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+  }
+}
+
+/*Responsiveness * Media Queries*/
+
+@media (max-width: 991px) {
+  /* Rikeey Mobile */
+  .mobileImgContainer {
+    position: static;
+  }
+
+  #mobileSection {
+    margin-top: 8rem;
+    margin-bottom: 15rem;
+    padding: 1.5rem;
+    position: static;
+  }
+
+  .mobileTxtContainer {
+    width: 100%;
+    margin-left: 0rem;
+  }
+
+  /* Rikeey Website Section */
+  .websiteImgContainer {
+    position: static;
+  }
+
+  .websiteSection {
+    margin-bottom: 15rem;
+    padding: 1.5rem;
+    position: static;
+  }
+
+  .websiteTxtContainer {
+    width: 100%;
+  }
+
+  /* Dotted Rectangles */
+  .boxOne {
+    position: absolute;
+    top: 150px;
+    left: -10px;
+    width: 10rem;
+  }
+
+  .boxTwo {
+    position: absolute;
+    top: 500px;
+    right: -30px;
+    z-index: -10;
+    width: 10rem;
+  }
+
+  .boxThree {
+    position: absolute;
+    z-index: -10;
+    top: -70px;
+    left: -30px;
+    width: 10rem;
+  }
+
+  .boxFour {
+    position: absolute;
+    top: 800px;
+    right: -25px;
+    width: 10rem;
+  }
+
+  /* Scroll */
+
+  .scrollCase {
+    position: relative;
+  }
+
+  .scrollContainer {
+    position: absolute;
+    top: 330px;
+    left: -40px;
+  }
+
+  .scroll {
+    width: 3rem;
+  }
+
+  /* About Me */
+  .aboutImgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Logo */
+  .logo img {
+    width: 4rem;
+  }
+
+  /* Custom padding for paragraph */
+  .pyCustom {
+    margin-bottom: 0.3rem;
+  }
+
+  .clientHead {
+    margin-top: 0.3rem;
+  }
+
+  .rikeeyHead {
+    font-size: 1.2rem;
+  }
+
+  /* Navbar */
+  .menuResponsive {
+    display: block;
+  }
+
+  .navLinkContainer {
+    display: none;
+  }
+
+  /* Website Section */
+
+  .webResponsiveOne {
+    order: 2;
+  }
+
+  .webResponsiveTwo {
+    order: 1;
+  }
+
+  .innerContainer {
+    order: 2;
+  }
+
+  .innerContainer2 {
+    order: 1;
+  }
+
+  .aboutImgContainer {
+    margin-left: 0rem;
+  }
+
+  /* Connect */
+  .socials {
+    width: 60%;
+  }
+
+  .boxTwo {
+    display: none;
+  }
+
+  .boxThree {
+    top: -40px;
+    left: -20px;
+    width: 7rem;
+  }
+
+  .boxFive {
+    display: block;
+    position: absolute;
+    width: 6rem;
+    top: 280px;
+    right: 5px;
+  }
+
+  .heroSection {
+    padding-top: 2.7rem;
+    margin-bottom: 1rem;
+  }
+
+  .heroSection p {
+    font-size: 0.7rem;
+  }
+
+  .heroSection h1 {
+    font-size: 2rem;
+  }
+
+  #mobileSection p {
+    font-size: 0.8rem;
+  }
+
+  #mobileSection {
+    margin-bottom: 5rem;
+  }
+
+  #mobileSection a {
+    font-size: 0.6rem;
+  }
+
+  .websiteSection p {
+    font-size: 0.8rem;
+  }
+
+  .websiteSection a {
+    font-size: 0.6rem;
+  }
+
+  .websiteSection {
+    margin-bottom: 8rem;
+  }
+
+  #aboutMeSection p {
+    font-size: 0.8rem;
+  }
+
+  .icon {
+    width: 1.5rem;
+  }
+
+  /* Hero Section */
+  .fingerCase {
+    order: 1;
+  }
+
+  .hero {
+    order: 2;
+  }
+
+  .heroImg {
+    width: 7rem;
+  }
+
+  .mobileImg {
+    transform: scale(1.3);
+  }
+
+  .websiteImg {
+    transform: scale(1.3);
+  }
+
+  .scrollContainer {
+    position: absolute;
+    top: 290px;
+    left: 30px;
+  }
+
+  .boxOne {
+    position: absolute;
+    top: -100px;
+    left: -10px;
+  }
+
+  .boxFour {
+    position: absolute;
+    top: 737px;
+    right: -10px;
+    width: 7rem;
+    z-index: -10;
+  }
+}
+
+@media (min-width: 769px) {
+  /* Navbar */
+  .menuResponsive {
+    display: none;
+  }
+
+  .boxFive {
+    display: none;
+  }
+
+  .navLinkContainer {
+    display: block;
+  }
+}
+
+@media (max-width: 586px) {
+  #mobileSection {
+    padding: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  #websiteSection {
+    padding: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  #aboutMeSection {
+    padding: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
