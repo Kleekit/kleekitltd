@@ -1,6 +1,5 @@
 import React from "react";
 import "../index.css";
-import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -9,11 +8,11 @@ export const Footer = () => {
         <div class="row">
           <div class="col-md-6">
             <div class="footer-logo-case">
-              <div>
+              {/* <div>
                 <a href="/start" class="footer-btn">
                   Start a Project
                 </a>
-              </div>
+              </div> */}
 
               <div>
                 <img

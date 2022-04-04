@@ -26,6 +26,10 @@ nav {
   width: 3rem;
 }
 
+.nameLink {
+  text-decoration: none;
+}
+
 .header-btn {
   border: none;
   color: #fff;

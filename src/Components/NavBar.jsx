@@ -1,7 +1,6 @@
 import React from "react";
 import "../index.css";
 import "../bootstrap.css";
-import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -23,24 +22,20 @@ const NavBar = () => {
                 About
               </a>
             </li>
+
             <li>
-              <a className="activeLink" tabindex="3" href="/portfolio">
-                Porfolio
-              </a>
-            </li>
-            <li>
-              <a className="activeLink" tabindex="4" href="/team">
+              <a className="activeLink" tabindex="3" href="/team">
                 Team
               </a>
             </li>
           </ul>
         </div>
 
-        <div className="btnResponsive">
+        {/* <div className="btnResponsive">
           <a href="/start" className="header-btn">
             Start a Project
           </a>
-        </div>
+        </div> */}
 
         <div className="menuResponsive">
           <a
@@ -73,17 +68,15 @@ const NavBar = () => {
             <li className="menu-link">
               <a href="/about">About</a>
             </li>
-            <li className="menu-link">
-              <a href="/portfolio">Portfolio</a>
-            </li>
+
             <li className="menu-link">
               <a href="/team">Team</a>
             </li>
-            <li className="header-btn-menu">
+            {/* <li className="header-btn-menu">
               <a href="/start" className="header-btn2" id="header-btn2">
                 Start a Project
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
 

@@ -4,28 +4,19 @@ import Avatar from "../Components/Abbie/Avatar";
 import AboutSection from "../Components/General/AboutSection";
 import ConnectWithMe from "../Components/Abbie/ConnectWithMe";
 import Header from "../Components/General/Header";
-import ImgLogo from "../Components/Abbie/ImgLogo";
 import IntroHeader from "../Components/Abbie/IntroHeader";
-import NavBar from "../Components/General/NavBar";
+import NavBar from "../Components/NavBar";
 import OffCanvas from "../Components/General/OffCanvas";
-// import RikeeyMobileSection from "../Components/General/RikeeyMobileSection";
-import RikeeyWebSection from "../Components/General/RikeeyWebSection";
 
 const Abbie = () => {
   return (
     <div>
       {/* Navigation and Sidebar */}
-      <NavBar email={"aibieabigail@gmail.com"}>
-        <ImgLogo />
-      </NavBar>
+      <NavBar />
       <Header>
         <IntroHeader />
       </Header>
       <main className="container">
-        {/* Rikeey Mobile Section */}
-        {/* <RikeeyMobileSection /> */}
-        {/* Rikeey Website Section */}
-        <RikeeyWebSection />
         {/* About Me Section */}
         <AboutSection avatar={<Avatar />}>
           <AboutMe />

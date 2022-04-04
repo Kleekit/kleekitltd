@@ -4,28 +4,20 @@ import Avatar from "../Components/Tega/Avatar";
 import AboutSection from "../Components/General/AboutSection";
 import ConnectWithMe from "../Components/Tega/ConnectWithMe";
 import Header from "../Components/General/Header";
-import ImgLogo from "../Components/Tega/ImgLogo";
 import IntroHeader from "../Components/Tega/IntroHeader";
-import NavBar from "../Components/General/NavBar";
+import NavBar from "../Components/NavBar";
 import OffCanvas from "../Components/General/OffCanvas";
-import RikeeyMobileSection from "../Components/General/RikeeyMobileSection";
-import RikeeyWebSection from "../Components/General/RikeeyWebSection";
 
 const Portfolio = () => {
   return (
     <div>
       {/* Navigation and Sidebar */}
-      <NavBar email={"tegakleekit@gmail.com"}>
-        <ImgLogo />
-      </NavBar>
+
+      <NavBar />
       <Header>
         <IntroHeader />
       </Header>
       <main className="container">
-        {/* Rikeey Mobile Section */}
-        <RikeeyMobileSection />
-        {/* Rikeey Website Section */}
-        <RikeeyWebSection />
         {/* About Me Section */}
         <AboutSection avatar={<Avatar />}>
           <AboutMe />
