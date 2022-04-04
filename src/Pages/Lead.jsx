@@ -29,6 +29,7 @@ const Portfolio = () => {
           linkedInAddress={
             "https://www.linkedin.com/in/martins-ngene-0a0325198/"
           }
+          email={"mailto:ekamanelly@gmail.com"}
         />
       </main>
       {/* <!-- off-canvas --> */}

@@ -1,4 +1,5 @@
 import React from "react";
+import { AiOutlineMail } from "react-icons/ai";
 
 function ConnectWithMe(props) {
   return (
@@ -34,6 +35,10 @@ function ConnectWithMe(props) {
                 src="media/linkedin.png"
                 alt="Linkedin"
               />
+            </a>
+
+            <a href={props.email} className={props.emailDisplay}>
+              <AiOutlineMail size="32px" className="emailIcon" />
             </a>
           </div>
         </div>

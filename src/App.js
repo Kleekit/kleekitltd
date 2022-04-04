@@ -12,6 +12,7 @@ import Martins from "./Pages/Martins";
 import Collins from "./Pages/Collins";
 import Lead from "./Pages/Lead";
 import Ceo from "./Pages/Ceo";
+import Kelvin from "./Pages/Kelvin";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/collins" exact component={Collins} />
         <Route path="/ekama" exact component={Lead} />
         <Route path="/kay" exact component={Ceo} />
+        <Route path="/kelvin" exact component={Kelvin} />
       </Switch>
     </div>
   );

@@ -30,6 +30,7 @@ const Portfolio = () => {
           linkedInAddress={
             "https://www.linkedin.com/in/oghenetega-melisa-udi-85566319b/"
           }
+          email={"mailto:uditegamelisa089@gmail.com"}
         />
       </main>
       {/* <!-- off-canvas --> */}

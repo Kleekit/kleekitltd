@@ -27,6 +27,7 @@ const Portfolio = () => {
           whatsappAddress="https://wa.me/2348122683190"
           githubAddress="https://github.com/alsoknownaszac"
           linkedInAddress="https://www.linkedin.com/in/collins-amayo-aaa5a1216/"
+          email={"mailto:mayo16collins@gmail.com"}
         />
       </main>
       {/* <!-- off-canvas --> */}

@@ -1,22 +1,23 @@
 import React from "react";
 import "../index.css";
+import { FaLinkedin, FaTwitterSquare, FaFacebookSquare } from "react-icons/fa";
 
 export const Footer = () => {
   return (
     <div>
-      <footer class="container-fluid">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="footer-logo-case">
+      <footer className="container-fluid">
+        <div className="row">
+          <div className="col-md-6">
+            <div className="footer-logo-case">
               {/* <div>
-                <a href="/start" class="footer-btn">
+                <a href="/start" className="footer-btn">
                   Start a Project
                 </a>
               </div> */}
 
               <div>
                 <img
-                  class="img-fluid logo-footer"
+                  className="img-fluid logo-footer"
                   src="media/logo-footer.png"
                   alt="img"
                 />
@@ -24,12 +25,12 @@ export const Footer = () => {
             </div>
           </div>
 
-          <div class="col-md-6">
-            <ul class="contact">
-              <li class="detail-top">Contact</li>
+          <div className="col-md-6">
+            <ul className="contact">
+              <li className="detail-top">Contact</li>
               <li>
                 <img
-                  class="footerIcon"
+                  className="footerIcon"
                   src="media/map-pin.png"
                   alt="footer icon"
                 />{" "}
@@ -37,7 +38,7 @@ export const Footer = () => {
               </li>
               <li>
                 <img
-                  class="footerIcon"
+                  className="footerIcon"
                   src="media/mail.png"
                   alt="footer icon"
                 />{" "}
@@ -45,37 +46,24 @@ export const Footer = () => {
               </li>
               <li>
                 <img
-                  class="footerIcon"
+                  className="footerIcon"
                   src="media/phone-call.png"
                   alt="footer icon"
                 />{" "}
                 &nbsp; 08102676031
               </li>
               <li>
-                <ul class="social">
+                <ul className="social">
                   <li>
-                    {" "}
-                    <img
-                      class="footerIcon"
-                      src="media/linkedin.png"
-                      alt="footer icon"
-                    />{" "}
+                    <FaLinkedin size={"25px"} />
                   </li>
                   <li>
                     {" "}
-                    <img
-                      class="footerIcon"
-                      src="media/twitter.png"
-                      alt="footer icon"
-                    />{" "}
+                    <FaTwitterSquare size={"25px"} />
                   </li>
                   <li>
                     {" "}
-                    <img
-                      class="footerIcon"
-                      src="media/facebook.png"
-                      alt="footer icon"
-                    />{" "}
+                    <FaFacebookSquare size={"25px"} />
                   </li>
                 </ul>
               </li>

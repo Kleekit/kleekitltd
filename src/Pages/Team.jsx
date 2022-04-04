@@ -1,6 +1,5 @@
 import React from "react";
 import "./Team.css";
-import { Link } from "react-router-dom";
 import NavBar from "../Components/NavBar";
 import TeamProfileTemp from "../Components/TeamProfileTemp";
 
@@ -51,7 +50,7 @@ const Team = () => {
           <TeamProfileTemp
             name="Udi Tega"
             title="Flutter Developer"
-            pic="media/front-end.png"
+            pic="media/tega_profile.jpg"
             href="/tega"
           />
 

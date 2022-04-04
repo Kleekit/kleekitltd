@@ -29,6 +29,7 @@ const Abbie = () => {
           linkedInAddress={
             "https://www.linkedin.com/in/abigail-aghaibie-0375591b4/"
           }
+          email={"mailto:aibieabigail@gmail.com"}
         />
       </main>
       {/* <!-- off-canvas --> */}

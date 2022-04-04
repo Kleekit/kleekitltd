@@ -28,6 +28,7 @@ const Portfolio = () => {
           linkedInAddress={
             "https://www.linkedin.com/in/joshua-aghanti-81721572/"
           }
+          email={"mailto:kayoneklein@gmail.com"}
         />
       </main>
       {/* <!-- off-canvas --> */}

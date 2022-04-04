@@ -195,16 +195,23 @@ footer {
 
 .social {
   list-style: none;
-  width: 100px;
+  width: 200px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+.social li {
+  margin-right: 8px;
+}
 .footerIcon {
   width: 1.3rem;
   margin-left: 1rem;
   color: #fff;
+}
+
+.emailIcon {
+  color: #000;
 }
 
 /*Responsiveness * Media Queries*/
