@@ -1,10 +1,10 @@
 import React from "react";
-import AboutMe from "../Components/Martins/AboutMe";
-import Avatar from "../Components/Martins/Avatar";
+import AboutMe from "../Components/Kelvin/AboutMe";
+import Avatar from "../Components/Kelvin/Avatar";
 import AboutSection from "../Components/General/AboutSection";
-import ConnectWithMe from "../Components/Martins/ConnectWithMe";
+import ConnectWithMe from "../Components/Kelvin/ConnectWithMe";
 import Header from "../Components/General/Header";
-import IntroHeader from "../Components/Martins/IntroHeader";
+import IntroHeader from "../Components/Kelvin/IntroHeader";
 import NavBar from "../Components/NavBar";
 import OffCanvas from "../Components/General/OffCanvas";
 import "./PortfolioStyles.css";
@@ -25,13 +25,13 @@ const Portfolio = () => {
         </AboutSection>
         {/* Connect With Me */}
         <ConnectWithMe
-          instagramAddress={"https://www.instagram.com/martinium3/"}
-          whatsappAddress={"https://wa.me/2348085878073"}
-          githubAddress={"https://github.com/Martinsngene"}
+          instagramAddress={"https://www.instagram.com"}
+          whatsappAddress={"https://wa.me/2347067582810"}
+          githubAddress={"https://github.com/worldkaizen001"}
           linkedInAddress={
-            "https://www.linkedin.com/in/martins-ngene-0a0325198/"
+            "https://www.linkedin.com/in/kelvin-aigbe-810b12225/"
           }
-          email={"mailto:martinsngene@gmail.com"}
+          email={"mailto:aigbekelvin@gmail.com"}
         />
       </main>
       {/* <!-- off-canvas --> */}

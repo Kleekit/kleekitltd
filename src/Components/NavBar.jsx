@@ -62,7 +62,7 @@ const NavBar = () => {
       >
         <div className="offcanvas-body" id="off-body">
           <ul className="links-canvas">
-            <li className="menu-link menu-active">
+            <li className="menu-link">
               <a href="/">Home</a>
             </li>
             <li className="menu-link">

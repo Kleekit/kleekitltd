@@ -4,15 +4,11 @@ function IntroHeader() {
   return (
     <span>
       <h1>
-        Let me help 
+        JavaScript is a lifestyle
         <br />
-        break your UI Enigma.
-        <br />
-        I'm Martins Ngene
+        I'm Emmanuel Ekama
       </h1>
-      <p>
-        I'm a Front-End Developer, specialized in building the UI of web applications using JavaScript libaries like React.
-      </p>
+      <p> I'm not a Full stack developer</p>
     </span>
   );
 }

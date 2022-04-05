@@ -23,11 +23,11 @@ const Portfolio = () => {
         </AboutSection>
         {/* Connect With Me */}
         <ConnectWithMe
-          instagramAddress={"https://www.instagram.com/martinium3/"}
-          whatsappAddress={"https://wa.me/2348085878073"}
-          githubAddress={"https://github.com/Martinsngene"}
+          instagramAddress={"https://www.instagram.com"}
+          whatsappAddress={"https://wa.me/2347082571949"}
+          githubAddress={"https://github.com/ekamanelly"}
           linkedInAddress={
-            "https://www.linkedin.com/in/martins-ngene-0a0325198/"
+            "https://www.linkedin.com/in/emmanuel-ekama-454a74143/"
           }
           email={"mailto:ekamanelly@gmail.com"}
         />

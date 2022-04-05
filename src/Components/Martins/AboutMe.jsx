@@ -5,20 +5,20 @@ function AboutMe() {
     <div className="aboutMeTxt">
       <h3>About me</h3>
       <p>
-        I am a Believer which makes me a game changer. In the advancement of the human race, web applications will
-         continue to play a vital role in connecting people and service delivery and I am here to contribute
-          immersively by building smart UI's for web applications.
+        I'm a Believer and this makes me a game changer. I believe in Christ
+        Jesus. I believe Frontend Development is a craft and it should be done
+        well. I believe that life is a gift.
       </p>
       <br />
       <p>
-        There are many Front-End developers.  Still I remain the go-to Developer for your UI solutions because
-         of my ability to problem solve, attentiveness to details and my result-driven approach when working
-          on projects.
+        When cooking, people use pot and ingredients. I use my IDE and
+        technologies like React js, Nextjs, JavaScript, TypeScript, Node js and
+        lots more.
       </p>
       <br />
       <p>
-        Aside technical skills, I am a team player and with the collaboration of my team members and I, I believe
-         we can build the UI of any web application professionally. I don't give up and I have a high flair for learning.
+        Trust that I am a good chef. I don't just cook components for
+        responsiveness, I also cook for cross browser compatability.
       </p>
     </div>
   );

@@ -80,8 +80,8 @@ const Team = () => {
           <TeamProfileTemp
             name="Kelvin Aigbe"
             title="Flutter Developer"
-            pic="media/front-end.png"
-            href="kelvin"
+            pic="media/kelvin.jpeg"
+            href="/kelvin"
           />
         </div>
       </main>

@@ -4,14 +4,14 @@ function IntroHeader() {
   return (
     <span>
       <h1>
-        Let me help 
-        <br />
-        break your UI Enigma.
+        Let me show <br />
+        you what UI development means.
         <br />
         I'm Martins Ngene
       </h1>
       <p>
-        I'm a Front-End Developer, specialized in building the UI of web applications using JavaScript libaries like React.
+        A Frontend guy, specialized in building pixel-perfect, responsive and
+        reusable components for UIs.
       </p>
     </span>
   );
