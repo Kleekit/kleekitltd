@@ -30,7 +30,7 @@ function About() {
           </div>
 
           <div className="row">
-            <div className="col-md-12">
+            <div className="col-md-8">
               <img className="img-fluid" src="media/about.png" alt="About" />
             </div>
           </div>

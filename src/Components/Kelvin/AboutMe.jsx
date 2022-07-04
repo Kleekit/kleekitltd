@@ -7,13 +7,13 @@ function AboutMe() {
       <p>
         I am enough of an artist to draw freely upon my imagination, my love for
         mobile applications got me into this awesome relationship of creating
-        quality, adaptive and functional applications with Flutter.
+        quality, adaptive and functional applications.
       </p>
       <br />
       <p>
-        I am familiar with the mobile application process and i understand that
-        is takes more than just writing codes to create a definitive, user
-        friendly and high functioning application.
+        I am familiar with the entire mobile application development process and
+        I understand that is takes more than just writing codes to create a
+        definitive, user friendly and high functioning application.
       </p>
       <br />
       <p>

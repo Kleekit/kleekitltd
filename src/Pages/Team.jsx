@@ -36,7 +36,7 @@ const Team = () => {
         <div class="row align-items-center justify-content-center text-center memberProfile">
           <TeamProfileTemp
             name="Ekama Emmanuel"
-            title="Lead Developer"
+            title="Software Engineer"
             pic="media/lead.png"
             href="/ekama"
           />
@@ -49,7 +49,7 @@ const Team = () => {
 
           <TeamProfileTemp
             name="Udi Tega"
-            title="Flutter Developer"
+            title="Mobile Developer"
             pic="media/tega_profile.jpg"
             href="/tega"
           />
@@ -79,7 +79,7 @@ const Team = () => {
 
           <TeamProfileTemp
             name="Kelvin Aigbe"
-            title="Flutter Developer"
+            title="Mobile Developer"
             pic="media/kelvin.jpeg"
             href="/kelvin"
           />

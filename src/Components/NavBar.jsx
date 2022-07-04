@@ -5,7 +5,7 @@ import "../bootstrap.css";
 const NavBar = () => {
   return (
     <div>
-      <nav className="container-fluid">
+      <nav className="container">
         <div className="logo">
           <img src="./media/logo-footer.png" alt="logo" />
         </div>

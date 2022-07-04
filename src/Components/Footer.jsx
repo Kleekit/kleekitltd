@@ -50,7 +50,7 @@ export const Footer = () => {
                   src="media/phone-call.png"
                   alt="footer icon"
                 />{" "}
-                &nbsp; 08102676031
+                &nbsp; 08162422212
               </li>
               <li>
                 <ul className="social">

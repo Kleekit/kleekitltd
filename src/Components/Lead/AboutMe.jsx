@@ -16,8 +16,8 @@ function AboutMe() {
       </p>
       <br />
       <p>
-        Also, I know some DevOps but I can't brag about it for now. Maybe when I
-        have spent a reasonable amount of time troubleshooting a yaml file.
+        Also, I am proficient in DevOps giving me the ability to take an idea
+        from a UI/UX design to deployment.
       </p>
     </div>
   );
