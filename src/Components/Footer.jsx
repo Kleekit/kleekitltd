@@ -42,7 +42,7 @@ export const Footer = () => {
                   src="media/mail.png"
                   alt="footer icon"
                 />{" "}
-                &nbsp; KleekitLTD@gmail.com
+                &nbsp; k.kleekit@gmail.com
               </li>
               <li>
                 <img
